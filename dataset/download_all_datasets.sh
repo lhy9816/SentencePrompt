@@ -1,0 +1,2 @@
+#!/bin/bash
+wget --load-cookies ./cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1gMGdzM8MoaoXh0mz2n1yN_8XhJB5c9nM' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1gMGdzM8MoaoXh0mz2n1yN_8XhJB5c9nM" -O processed_data.tar.gz && rm -rf ./cookies.txt
